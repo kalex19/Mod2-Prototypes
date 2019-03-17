@@ -182,14 +182,15 @@
 <img src="images/this Context/Rule 4.png" alt="Rules for This">
 <h2>Object 'this' Example</h2>
 <img src="images/this Context/this Example 1.png" alt="Object Example">
+<h3>Example 2</h3>
 <img src="images/this Context/this Example 2.png" alt="Object Example">
 <img src="images/this Context/this Example 3.png" alt="Object Example">
 <img src="images/this Context/this Example 4.png" alt="Object Example">
-<img src="images/this Context/this Example 5.png" alt="Object Example">
 <h2> Object Method Example</h2>
 <img src="images/this Context/this Method 1.png" alt="Object Method Example">
 <img src="images/this Context/this Method 2.png" alt="Object Method Example">
 <img src="images/this Context/this Method 3.png" alt="Object Method Example">
 <img src="images/this Context/this Method 4.png" alt="Object Method Example">
+<h3>Reaches to the global window object.</h3>
 <img src="images/this Context/this Method 5.png" alt="Object Method Example">
 
