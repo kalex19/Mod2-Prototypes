@@ -141,4 +141,11 @@
 <p>In this example, there is one array (fruits).</p>
 <p>The function sorts the array alphabetically and returns the modified version.</p>
 <img src="images/Array Prototypes/arr.sort Example.png" alt="Array Prototype Sort">
+<h2>Array.splice()</h2>
+<h3>array.splice() changes the contents of the array by adding/replacing/removing existing elements. It takes the parameters (start, deleteCount, and item 1, item2...)</h3>
+<p>In this example, there is one array (foods).</p>
+<p>The function splices out the first two elements and returns the rest, starting at index 2.</p>
+<img src="images/Array Prototypes/arr.splice Example.png" alt="Array Prototype Splice">
+
+
 
