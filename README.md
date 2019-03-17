@@ -8,7 +8,7 @@
   <li>.concat is the prototype</li>
   <li>vegetables is the second array</li>
 </ul>
-<h3>arr.concat concatentates both arrays into one array.</h3>
+<h3>arr.concat concatenates both arrays into one array.</h3>
 <p>The result, on the right side, combines both arrays:</p>
 <p>[ 'apple', 'orange', 'banana', 'berries', 'lime', 'lemon', 'mango', 'pear', 'mushroom', 'onion', 'garlic', 'broccoli']</p>
 <img src="images/Array Prototypes/arr.concat Example.png" alt="Array Prototype">
@@ -26,12 +26,19 @@
 <p>[ 'apple', 'orange', 'banana', 'berries', 'lime', 'orange', 'banana', 'berries']</p>
 <img src="images/Array Prototypes/arr.copyWithin Example.png" alt="Array Prototype">
 <h2>Array.every()</h2>
-<p>In this example, there is one array (fruits)</p>
-<p>There are two functions, yum and change</p>
-<p>In the yum function, we are passing in the fruits array and returning the 12th index of fruits (Hint: There is no 12th index)</p>
-<p>array.every returns true or false depending if all the elements in the array pass the test provided in the function.</p>
+<p>In this example, there is one array (fruits).</p>
+<p>There are two functions, yum and change.</p>
+<p>In the yum function, we are passing in the fruits array and returning the 12th index of fruits (Hint: There is no 12th index).</p>
+<h3>array.every returns true or false depending if all the elements in the array pass the test provided in the function.</h3>
 <p>In the yum function, we are checking for the 12th element.</p>
 <p>In the change function, we are returning the output of the fruits array after checking every element to see if it mathces the conditions in the yum function.</p>
 <p>Since there is no 12th index, the return is false.</p>
 <img src="images/Array Prototypes/arr.every Example.png" alt="Array Prototype">
-
+<h2>Array.fill()</h2>
+<p>In this example, there is one array (fruits).</p>
+<p>In the change function, we are returning the output of fruits.fill('kiwi', 2,5).</p>
+<h3>array.fill() fills in the array and takes three parameters: the new element that will 'fill in' the old, the starting index, the ending index(this one will not be changed)</h3>
+<p>In the example, 'kiwi' will be the new string element that will replace the other elements starting with the 2nd index until the 5th index (the 2nd, 3rd, and 4th, indexes will become 'kiwi') as seen in the console.</p>
+<p>The result is:</p>
+<p>['apple', 'orange', 'kiwi', 'kiwi', 'kiwi', 'lemon', 'mango', 'pear']</p>
+<img src="images/Array Prototypes/arr.fill Example.png" alt="Array Prototype">
