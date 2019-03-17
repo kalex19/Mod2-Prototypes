@@ -146,6 +146,9 @@
 <p>In this example, there is one array (foods).</p>
 <p>The function splices out the first two elements and returns the rest, starting at index 2.</p>
 <img src="images/Array Prototypes/arr.splice Example.png" alt="Array Prototype Splice">
-
-
+<h2>Array.unshift()</h2>
+<h3>array.unshift() adds elements to the beginning of the array and returns the length of the new array. It takes the parameters (element 1....elementN).</h3>
+<p>In this example, there is one array (foods).</p>
+<p>Three new elements (2, 'watermelon', and 'peach') are added to the array, bringing the index count up to 11, which is logged in the console.</p>
+<img src="images/Array Prototypes/arr.unshift Example.png" alt="Array Prototype Unshift ">
 
