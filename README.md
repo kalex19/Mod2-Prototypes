@@ -115,5 +115,11 @@
 <p>In this example, there is one array (foods).</p>
 <p>The function pushes in 'watermelon' and returns 9, the length of the new array.</p>
 <img src="images/Array Prototypes/arr.push Example.png" alt="Array Prototype Push">
-
+<h2>Array.reverse()</h2>
+<h3>array.reverse reverses the order of the array. The first element becomes the last.</h3>
+<p>In this example, there is one array (foods).</p>
+<p>The function reverses the order of the array and logs it in the console.</p>
+<img src="images/Array Prototypes/arr.reverse Example.png" alt="Array Prototype Reverse">
+<h2>Array.Shift()</h2>
+<h3></h3>
 
