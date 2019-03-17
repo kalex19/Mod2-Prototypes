@@ -136,5 +136,9 @@
 <p>In this example, there is one array (fruits).</p>
 <p>The function executes and returns the array contents from index 2 onward. (There is no end value as a parameter)</p>
 <img src="images/Array Prototypes/arr.slice Example.png" alt="Array Prototype Slice">
-
+<h2>Array.sort()</h2>
+<h3>array.sort() sorts the array and returns the sorted version.</h3>
+<p>In this example, there is one array (fruits).</p>
+<p>The function sorts the array alphabetically and returns the modified version.</p>
+<img src="images/Array Prototypes/arr.sort Example.png" alt="Array Prototype Sort">
 
