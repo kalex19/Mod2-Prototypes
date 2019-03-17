@@ -83,10 +83,15 @@
 <h2>Array.indexOf()</h2>
 <h3>array.indexOf() checks for the index of the passed in element. If the element is not in the array, it returns -1.</h3>
 <p>In this example, there is one array (fruits).</p>
-<p>The function checks for the index of 'lime' and return 4 since 'lime' is in the 4th index of the array.</p>
-<img src="images/Array Prototypes/arr.indexOf Example.png" alt="Array Prototype IndexOf">
-<p>In this secind example, using the same array, the function checks for 'watermelon'.</p>
-<p>'watermelon' is not in the array so the console logs -1.</p>
+<p>The function checks for the index of 'lime' and returns 4 since 'lime' is in the 4th index of the array.</p>
 <img src="images/Array Prototypes/arr.indexOf Example 2.png" alt="Array Prototype IndexOf">
+<p>In this second example, using the same array, the function checks for 'watermelon'.</p>
+<p>'watermelon' is not in the array so the console logs -1.</p>
+<img src="images/Array Prototypes/arr.indexOf Example.png" alt="Array Prototype IndexOf">
+<h2>Array.join</h2>
+<h3>array.join creates and returns a new string of all the elements via concatenation. By default, it returns each element seperated by a comma.</h3>
+<p>In this example, there is one array (fruits).</p>
+<p>The function joins together all of the elements. The seperator, by defualt, seperates them by commas.</p>
+<img src="images/Array Prototypes/arr.join Example.png" alt="Array Prototype Join">
 
 
