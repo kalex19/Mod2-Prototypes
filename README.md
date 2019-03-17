@@ -44,12 +44,21 @@
 <img src="images/Array Prototypes/arr.fill Example.png" alt="Array Prototype Fill">
 <h2>Array.filter()</h2>
 <p>In this example, there is one array (fruits).</p>
-<p>The variable of favorites is being assigned the value of fruits.filter and then invoking a function of fruits that searches for any element in the array of fruits with a character length less than 5 characters.</p>
+<p>The variable of favorites is being assigned the value of fruits.filter() and then invoking a function of fruits that searches for any element in the array of fruits with a character length less than 5 characters.</p>
 <p>The results are logged in the console as ['lime', 'pear']</p>
-<h3>array.filter searchs through the elements of an array and for elements that meet a certain condition and returns a new array with all of the elements that passed the condition set inside the callback function.</h3>
+<h3>array.filter searchs through the elements of an array for elements that meet a certain condition and returns a new array with all of the elements that passed the condition set inside the callback function.</h3>
 <img src="images/Array Prototypes/arr.filter Example.png" alt="Array Prototype Filter">
 <p>Here is another example of the array.filter() prototype in action.</p>
 <p>In this example, any pet with the age of 10 will be returned in the new array.</p>
-<p>An empty array is being returned because the function condition has not been met by any of the value of the object inside the array of pets.</p>
+<p>An empty array is being returned because the function condition has not been met by any of the values of the object key age inside the array of pets.</p>
 <img src="images/Array Prototypes/arr.filter Example copy.png" alt="">
+<h2>Array.find()</h2>
+<h3>Array.find() is very similar to array.filter() except it finds the first element that meets the condition and then returns the value of that element. Whereas array.filter returns ALL of the elements that meet the condition in a new array.</h3>
+<p>In this example, there is one array (fruits).</p>
+<p>The function is asking it to look for the first element that is not 'apple'.</p>
+<p>Thus is console returns 'orange', the next element in the array that is not 'apple'.</p>
+<img src="images/Array Prototypes/arr.find Example.png" alt="Array Prototype Find">
+<p>This table is based off a different example, but it shows the sequence of how array.find() is executed.</p>
+<img src="images/Array Prototypes/arr.filter Example Table.png" alt="Array Prototype Find Table">
+<h2>Array.forEach()</h2>
 
