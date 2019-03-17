@@ -88,16 +88,16 @@
 <p>In this second example, using the same array, the function checks for 'watermelon'.</p>
 <p>'watermelon' is not in the array so the console logs -1.</p>
 <img src="images/Array Prototypes/arr.indexOf Example.png" alt="Array Prototype IndexOf">
-<h2>Array.join</h2>
+<h2>Array.join()</h2>
 <h3>array.join creates and returns a new string of all the elements via concatenation. By default, it returns each element seperated by a comma.</h3>
 <p>In this example, there is one array (fruits).</p>
 <p>The function joins together all of the elements. The seperator, by defualt, seperates them by commas.</p>
 <img src="images/Array Prototypes/arr.join Example.png" alt="Array Prototype Join">
-<h2>Array.map</h2>
+<h2>Array.map()</h2>
 <h3>array.map creates a new array with the results of the function having been called on each element. It takes the parameters of (item, index, array)</h3>
 <p>In this example, there is one array (evenNumbers).</p>
 <p>The function is mapping over each element and adding one to the element's value. Those new numbers are returned and logged in the console.</p>
-<p>[3,5,7,9,11]</p>
+<p>[3, 5, 7, 9, 11]</p>
 <img src="images/Array Prototypes/arr.map Example.png" alt="Array Prototype Map">
 <p>This example uses the same array, but logs each number as the function maps over each element.</p>
 <img src="images/Array Prototypes/arr.map Example 2.png" alt="Array Prototype Map">
@@ -105,4 +105,11 @@
 <p>If the number is 6, do nothing. Else add 1 to the number.</p>
 <p>Looking at the console, you'll notice it returns undefined for the 2nd index where 6 used to be. That is because array.map must return something and if the return value has not been defined, then it returns undefined as a placeholder.</p>
 <img src="images/Array Prototypes/arr.map Must Return Example.png" alt="Array Prototype Map">
+<h2>Array.pop()</h2>
+<h3>array.pop() removes the last element from the array and returns that element.</h3>
+<p>In this example, there is one array (fruits).</p>
+<p>The function removes 'pear', the last element, and logs it in the console.</p>
+<img src="images/Array Prototypes/arr.pop Example.png" alt="Array Prototype Pop">
+<h2>Array.push()</h2>
+<h3></h3>
 
