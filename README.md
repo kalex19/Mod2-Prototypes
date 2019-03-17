@@ -80,5 +80,13 @@
 <p>Here is the same array, however this time the function checks to see if 'watermelon' is the value of an element in the array.</p>
 <p>It returns false.</p>
 <img src="images/Array Prototypes/arr.includes Example 2.png" alt="Array Prototype Includes">
+<h2>Array.indexOf()</h2>
+<h3>array.indexOf() checks for the index of the passed in element. If the element is not in the array, it returns -1.</h3>
+<p>In this example, there is one array (fruits).</p>
+<p>The function checks for the index of 'lime' and return 4 since 'lime' is in the 4th index of the array.</p>
+<img src="images/Array Prototypes/arr.indexOf Example.png" alt="Array Prototype IndexOf">
+<p>In this secind example, using the same array, the function checks for 'watermelon'.</p>
+<p>'watermelon' is not in the array so the console logs -1.</p>
+<img src="images/Array Prototypes/arr.indexOf Example 2.png" alt="Array Prototype IndexOf">
 
 
