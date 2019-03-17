@@ -116,17 +116,17 @@
 <p>The function pushes in 'watermelon' and returns 9, the length of the new array.</p>
 <img src="images/Array Prototypes/arr.push Example.png" alt="Array Prototype Push">
 <h2>Array.reduce()</h2>
-<h3>array.reduce() performs the reducer function on each element in the array and returns a single output. It has a callback function and takes the parameters (accumulator, currentValue, index, array).</h3>
-<p>In this example, there is one array (fruits).</p>
-<p></p>
-<p></p>
-<img src="" alt="Array Prototype Reduce">
+<h3>array.reduce() performs the reducer function on each element in the array and returns a single output. It has a callback function and takes the parameters (accumulator, currentValue, currentIndex, sourceaArray). The reducer function's value is assigned to the accumulator which is remembered across each iteration of the array.</h3>
+<p>In this example, there is one array (fruits). And another array (numbers).</p>
+<p>Each function is performing the same task with the same result - it is adding the accumulator to total as it iterates through and 'accumulates' the sum of all the elements </p>
+<p>The difference between using reduce on an array of numbers (more common) versus an array of strings can be seen in the example.</p>
+<img src="images/Array Prototypes/arr.reduce Example.png" alt="Array Prototype Reduce">
 <h2>Array.reverse()</h2>
 <h3>array.reverse reverses the order of the array. The first element becomes the last.</h3>
 <p>In this example, there is one array (foods).</p>
 <p>The function reverses the order of the array and logs it in the console.</p>
 <img src="images/Array Prototypes/arr.reverse Example.png" alt="Array Prototype Reverse">
-<h2>Array.Shift()</h2>
+<h2>Array.shift()</h2>
 <h3>array.shift() removes the first element of the array and returns that element.</h3>
 <p>In this example, there is one array (foods).</p>
 <p>The function removes the first element 'apple' and logs it in the console.</p>
@@ -149,6 +149,6 @@
 <h2>Array.unshift()</h2>
 <h3>array.unshift() adds elements to the beginning of the array and returns the length of the new array. It takes the parameters (element 1....elementN).</h3>
 <p>In this example, there is one array (foods).</p>
-<p>Three new elements (2, 'watermelon', and 'peach') are added to the array, bringing the index count up to 11, which is logged in the console.</p>
+<p>Three new elements (2, 'watermelon', and 'peach') are added to the array, bringing the length up to 11, which is logged in the console.</p>
 <img src="images/Array Prototypes/arr.unshift Example.png" alt="Array Prototype Unshift ">
 
