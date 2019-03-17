@@ -66,10 +66,19 @@
 <p>The function is returning each element.</p>
 <h3>array.forEach() executes a provided function once for each element in the array.</h3>
 <h3>This prototype takes a callback function, index, array, and thisArg.</h3>
-<img src="images/Array Prototypes/arr.find Example.png" alt="Array Prototype forEach">
+<img src="images/Array Prototypes/arr.forEach Example.png" alt="Array Prototype forEach">
 <h3>Array.forEach() Execution Table</h3>
 <p>This table is for a different example where the function is adding 1 to each element.</p>
 <p>The output is below the table.</p>
-<img src="images/Array Prototypes/arr.find Example Table.png" alt="Array Prototype forEach Table">
+<img src="images/Array Prototypes/arr.forEach Example Table.png" alt="Array Prototype forEach Table">
+<h2>Array.includes()</h2>
+<h3>array.includes() checks to see if the parameter is included in the array.</h3>
+<h3>It returns a value of true or false.</h3>
+<p>In this example, there is one array (fruits).</p>
+<p>The function checks to see if 'berries' is an element in the array and returns true.</p>
+<img src="images/Array Prototypes/arr.includes Example.png" alt="Array Prototype Includes">
+<p>Here is the same array, however this time the function checks to see if 'watermelon' is the value of an element in the array.</p>
+<p>It returns false.</p>
+<img src="images/Array Prototypes/arr.includes Example 2.png" alt="Array Prototype Includes">
 
 
