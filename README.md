@@ -1,5 +1,6 @@
 <h1>Mod 2 Week 1 Review</h1>
 <p>In this document there will be explainations of common array and object prototype and 'this' context examples.</p>
+<h1>ARRAYS</h1>
 <h2>Array.concat()</h2>
 <p>In this example, there are two arrays (fruits and vegetables).</p>
 <p>In the change function, we are returning the output of fruits.concat.vegetables.</p>
@@ -155,6 +156,7 @@
 <p>In this example, there is one array (foods).</p>
 <p>Three new elements (2, 'watermelon', and 'peach') are added to the array, bringing the length up to 11, which is logged in the console.</p>
 <img src="images/Array Prototypes/arr.unshift Example.png" alt="Array Prototype Unshift ">
+<h1>OBJECTS</h1>
 <h2>Object.assign()</h2>
 <h3>object.assign() copies the values from one object (source object) to another (target object) and returns the target object. It takes two parameters (target, sources). Properties in the target object will be overwritten by properties in the sources if they have the same key.</h3>
 <p>In this example, there is the first object (Brittany's Pizza). This is the source object.</p>
@@ -170,5 +172,24 @@
 <p>Results: ['crust', 'sauce', 'size', 'extraCheese' , 'toppings']</p>
 <p>Note: object.values() is the same concept except it returns the values of the object properties/keys in an array.</p>
 <img src="images/Object Prototypes/obj.keys Example.png" alt="Object Prototype Keys">
-
+<h1>Context</h1>
+<h2>Arrow Functions</h2>
+<h3>ES5 vs ES6</h3>
+<img src="images/this Context/Arrow Function Example.png" alt="Arrow Function">
+<h2>Global Window Object</h2>
+<img src="images/this Context/Global Window this Example.png" alt="Global Window Object">
+<h2>Rules for 'this'</h2>
+<img src="images/this Context/Rule 4.png" alt="Rules for This">
+<h2>Object 'this' Example</h2>
+<img src="images/this Context/this Example 1.png" alt="Object Example">
+<img src="images/this Context/this Example 2.png" alt="Object Example">
+<img src="images/this Context/this Example 3.png" alt="Object Example">
+<img src="images/this Context/this Example 4.png" alt="Object Example">
+<img src="images/this Context/this Example 5.png" alt="Object Example">
+<h2> Object Method Example</h2>
+<img src="images/this Context/this Method 1.png" alt="Object Method Example">
+<img src="images/this Context/this Method 2.png" alt="Object Method Example">
+<img src="images/this Context/this Method 3.png" alt="Object Method Example">
+<img src="images/this Context/this Method 4.png" alt="Object Method Example">
+<img src="images/this Context/this Method 5.png" alt="Object Method Example">
 
