@@ -107,9 +107,13 @@
 <img src="images/Array Prototypes/arr.map Must Return Example.png" alt="Array Prototype Map">
 <h2>Array.pop()</h2>
 <h3>array.pop() removes the last element from the array and returns that element.</h3>
-<p>In this example, there is one array (fruits).</p>
+<p>In this example, there is one array (foods).</p>
 <p>The function removes 'pear', the last element, and logs it in the console.</p>
 <img src="images/Array Prototypes/arr.pop Example.png" alt="Array Prototype Pop">
 <h2>Array.push()</h2>
-<h3></h3>
+<h3>array.push() pushes in new elements into the array and returns the new length of the array.</h3>
+<p>In this example, there is one array (foods).</p>
+<p>The function pushes in 'watermelon' and returns 9, the length of the new array.</p>
+<img src="images/Array Prototypes/arr.push Example.png" alt="Array Prototype Push">
+
 
