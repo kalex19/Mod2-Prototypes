@@ -121,8 +121,10 @@
 <p>Each function is performing the same task with the same result - it is adding the accumulator to the total as it iterates through and 'accumulates' the sum of all the elements.</p>
 <p>The difference between using reduce on an array of numbers (more common) versus an array of strings can be seen in the example.</p>
 <img src="images/Array Prototypes/arr.reduce Example.png" alt="Array Prototype Reduce">
-<p>Normally it would only log one output, but we have it logging the accumulator value for each iteration.</p>
+<p>Normally it would only log one output, but we have it logging the accumulator value for each iteration. (See below for typical output)</p>
 <img src="images/Array Prototypes/arr.reduce Example 2.png" alt="Array Prototype Reduce">
+<p>The table shows how the accumulator works each time.</p>
+<img src="/Array Prototypes/arr.reduce Example Table.png" alt="Array Prototype Reduce">
 <h2>Array.reverse()</h2>
 <h3>array.reverse reverses the order of the array. The first element becomes the last.</h3>
 <p>In this example, there is one array (foods).</p>
@@ -153,4 +155,16 @@
 <p>In this example, there is one array (foods).</p>
 <p>Three new elements (2, 'watermelon', and 'peach') are added to the array, bringing the length up to 11, which is logged in the console.</p>
 <img src="images/Array Prototypes/arr.unshift Example.png" alt="Array Prototype Unshift ">
+<h2>Object.assign()</h2>
+<h3></h3>
+<p></p>
+<img src="images/Object Prototypes/obj.assign Example.png" alt="Object Prototype Assign">
+<h2>Object.keys()</h2>
+<h3>object.keys() returns an array of a given object's property/key names.</h3>
+<p>In this example, there is an object of pizza.</p>
+<p>An array of all the keys is being returned.</p>
+<p>Results: ['crust', 'sauce', 'size', 'extraCheese' , 'toppings']</p>
+<p>Note: object.values() is the same concept except it returns the values of the object properties/keys in an array.</p>
+<img src="images/Object Prototypes/obj.keys Example.png" alt="Object Prototype Keys">
+
 
