@@ -118,9 +118,11 @@
 <h2>Array.reduce()</h2>
 <h3>array.reduce() performs the reducer function on each element in the array and returns a single output. It has a callback function and takes the parameters (accumulator, currentValue, currentIndex, sourceaArray). The reducer function's value is assigned to the accumulator which is remembered across each iteration of the array.</h3>
 <p>In this example, there is one array (fruits). And another array (numbers).</p>
-<p>Each function is performing the same task with the same result - it is adding the accumulator to total as it iterates through and 'accumulates' the sum of all the elements </p>
+<p>Each function is performing the same task with the same result - it is adding the accumulator to the total as it iterates through and 'accumulates' the sum of all the elements.</p>
 <p>The difference between using reduce on an array of numbers (more common) versus an array of strings can be seen in the example.</p>
 <img src="images/Array Prototypes/arr.reduce Example.png" alt="Array Prototype Reduce">
+<p>Normally it would only log one output, but we have it logging the accumulator value for each iteration.</p>
+<img src="images/Array Prototypes/arr.reduce Example 2.png" alt="Array Prototype Reduce">
 <h2>Array.reverse()</h2>
 <h3>array.reverse reverses the order of the array. The first element becomes the last.</h3>
 <p>In this example, there is one array (foods).</p>
