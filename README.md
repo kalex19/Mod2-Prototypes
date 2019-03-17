@@ -53,12 +53,23 @@
 <p>An empty array is being returned because the function condition has not been met by any of the values of the object key age inside the array of pets.</p>
 <img src="images/Array Prototypes/arr.filter Example copy.png" alt="">
 <h2>Array.find()</h2>
-<h3>Array.find() is very similar to array.filter() except it finds the first element that meets the condition and then returns the value of that element. Whereas array.filter returns ALL of the elements that meet the condition in a new array.</h3>
+<h3>Array.find() is very similar to array.filter() except it finds the first element that meets the condition and then returns the value of that element. Whereas array.filter() returns ALL of the elements that meet the condition and puts them in a new array.</h3>
 <p>In this example, there is one array (fruits).</p>
 <p>The function is asking it to look for the first element that is not 'apple'.</p>
-<p>Thus is console returns 'orange', the next element in the array that is not 'apple'.</p>
+<p>Thus, the console returns 'orange', the next element in the array that is not 'apple'.</p>
 <img src="images/Array Prototypes/arr.find Example.png" alt="Array Prototype Find">
+<h3>Array.find() Execution Table</h3>
 <p>This table is based off a different example, but it shows the sequence of how array.find() is executed.</p>
 <img src="images/Array Prototypes/arr.filter Example Table.png" alt="Array Prototype Find Table">
 <h2>Array.forEach()</h2>
+<p>In this example, there is one array (fruits).</p>
+<p>The function is returning each element.</p>
+<h3>array.forEach() executes a provided function once for each element in the array.</h3>
+<h3>This prototype takes a callback function, index, array, and thisArg.</h3>
+<img src="images/Array Prototypes/arr.find Example.png" alt="Array Prototype forEach">
+<h3>Array.forEach() Execution Table</h3>
+<p>This table is for a different example where the function is adding 1 to each element.</p>
+<p>The output is below the table.</p>
+<img src="images/Array Prototypes/arr.find Example Table.png" alt="Array Prototype forEach Table">
+
 
