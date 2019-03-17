@@ -156,7 +156,7 @@
 <p>Three new elements (2, 'watermelon', and 'peach') are added to the array, bringing the length up to 11, which is logged in the console.</p>
 <img src="images/Array Prototypes/arr.unshift Example.png" alt="Array Prototype Unshift ">
 <h2>Object.assign()</h2>
-<h3>object.assign() copies the values from one object (source object) to another (target object) and returns the target object. It takes two parameters (target, sources). Properties in the target object will be overwritten by properties in the sources if they have the saem key.<h3>
+<h3>object.assign() copies the values from one object (source object) to another (target object) and returns the target object. It takes two parameters (target, sources). Properties in the target object will be overwritten by properties in the sources if they have the same key.</h3>
 <p>In this example, there is the first object (Brittany's Pizza). This is the source object.</p>
 <p>The target object is Pam's Pizza.</p>
 <p>We are assigning Pam's Pizza to Brittany's Pizza object and adding the key of temp with the value of 550.</p>
