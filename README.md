@@ -116,8 +116,9 @@
 <p>The function pushes in 'watermelon' and returns 9, the length of the new array.</p>
 <img src="images/Array Prototypes/arr.push Example.png" alt="Array Prototype Push">
 <h2>Array.reduce()</h2>
-<h3></h3>
+<h3>array.reduce() performs the reducer function on each element in the array and returns a single output. It has a callback function and takes the parameters (accumulator, currentValue, index, array).</h3>
 <p>In this example, there is one array (fruits).</p>
+<p></p>
 <p></p>
 <img src="" alt="Array Prototype Reduce">
 <h2>Array.reverse()</h2>
@@ -130,4 +131,10 @@
 <p>In this example, there is one array (foods).</p>
 <p>The function removes the first element 'apple' and logs it in the console.</p>
 <img src="images/Array Prototypes/arr.shift Example.png" alt="Array Prototype Shift">
+<h2>Array.slice()</h2>
+<h3>array.slice() returns a summarized version of the original array. It takes the parameters (begin, end). End is not inclusive.</h3>
+<p>In this example, there is one array (fruits).</p>
+<p>The function executes and returns the array contents from index 2 onward. (There is no end value as a parameter)</p>
+<img src="images/Array Prototypes/arr.slice Example.png" alt="Array Prototype Slice">
+
 
