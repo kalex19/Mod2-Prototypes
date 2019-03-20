@@ -32,7 +32,7 @@
 <p>In the yum function, we are passing in the fruits array and returning the 12th index of fruits (Hint: There is no 12th index).</p>
 <h3>array.every returns true or false depending if all the elements in the array pass the test provided in the function.</h3>
 <p>In the yum function, we are checking for the 12th element.</p>
-<p>In the change function, we are returning the output of the fruits array after checking every element to see if it mathces the conditions in the yum function.</p>
+<p>In the change function, we are returning the output of the fruits array after checking every element to see if it matches the conditions in the yum function.</p>
 <p>Since there is no 12th index, the return is false.</p>
 <img src="images/Array Prototypes/arr.every Example.png" alt="Array Prototype Every">
 <h2>Array.fill()</h2>
@@ -130,7 +130,7 @@
 <h3>array.reverse reverses the order of the array. The first element becomes the last.</h3>
 <p>In this example, there is one array (foods).</p>
 <p>The function reverses the order of the array and logs it in the console.</p>
-<img src="images/Array Prototypes/arr.reverse Example.png" alt="Array Prototype Reverse">
+<img src="images/Array Prototypes/arr.reduce Example Table.png" alt="Array Prototype Reverse">
 <h2>Array.shift()</h2>
 <h3>array.shift() removes the first element of the array and returns that element.</h3>
 <p>In this example, there is one array (foods).</p>
